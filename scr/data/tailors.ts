@@ -1,0 +1,63 @@
+export const tailorsData = [
+  {
+    id: 1,
+    name: "D. Nagalaxmi",
+    rating: 5,
+    badges: ["Expert", "Verified"],
+    info: "Can stitch frocks, blouses, chudidars, embroidery work • Max time: 1-2 days • L.B. Nagar, Hyderabad",
+    availability: "Available for 2 more orders",
+    portfolio: [
+      { id: 1, name: "Designer Blouse", likes: 45 },
+      { id: 2, name: "Embroidered Saree", likes: 62 },
+      { id: 3, name: "Party Wear Frock", likes: 38 },
+      { id: 4, name: "Traditional Lehenga", likes: 55 },
+      { id: 5, name: "Casual Kurti", likes: 29 },
+      { id: 6, name: "Bridal Blouse", likes: 71 },
+    ],
+    reviews: [
+      { name: "Priya Sharma", rating: 5, comment: "Excellent work! Very detailed embroidery." },
+      { name: "Anita Reddy", rating: 5, comment: "Perfect fit and fast delivery. Highly recommended!" },
+      { name: "Kavya Singh", rating: 4, comment: "Good quality stitching. Will order again." },
+    ],
+  },
+  {
+    id: 2,
+    name: "GopiKrishnan",
+    rating: 5,
+    badges: ["Trending", "Fast Stitching"],
+    info: "Can stitch men and women clothes • Can even stitch in 2 hours! • Banjara Hills, Hyderabad",
+    availability: "Available for 3 more orders",
+    portfolio: [
+      { id: 1, name: "Men's Kurta", likes: 34 },
+      { id: 2, name: "Women's Salwar", likes: 48 },
+      { id: 3, name: "Kids Dress", likes: 27 },
+      { id: 4, name: "Formal Shirt", likes: 41 },
+      { id: 5, name: "Traditional Dhoti", likes: 19 },
+      { id: 6, name: "Party Wear Gown", likes: 56 },
+    ],
+    reviews: [
+      { name: "Rahul Kumar", rating: 5, comment: "Amazing speed without compromising quality!" },
+      { name: "Sneha Patel", rating: 5, comment: "Best tailor for urgent orders. Highly skilled." },
+    ],
+  },
+  {
+    id: 3,
+    name: "Lakshmi Tailors",
+    rating: 4,
+    badges: ["Verified"],
+    info: "Specializes in traditional wear, wedding outfits • 5-7 days delivery • Jubilee Hills, Hyderabad",
+    availability: "Available for 5 more orders",
+    portfolio: [
+      { id: 1, name: "Wedding Lehenga", likes: 89 },
+      { id: 2, name: "Silk Saree Blouse", likes: 67 },
+      { id: 3, name: "Festive Kurta Set", likes: 43 },
+      { id: 4, name: "Bridal Ensemble", likes: 92 },
+      { id: 5, name: "Traditional Anarkali", likes: 58 },
+      { id: 6, name: "Designer Dupatta", likes: 37 },
+    ],
+    reviews: [
+      { name: "Divya Reddy", rating: 5, comment: "Perfect wedding outfit! Beautiful detailing." },
+      { name: "Meera Singh", rating: 4, comment: "Great for traditional wear. Takes time but worth it." },
+    ],
+  },
+];
